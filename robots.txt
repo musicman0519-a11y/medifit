@@ -1,0 +1,30 @@
+# 메디핏 MediFit — robots.txt
+# 모든 일반 검색엔진 허용
+User-agent: *
+Allow: /
+
+# AI 검색/답변 엔진 크롤러 명시적 허용 (AEO·GEO)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://medifit.ai.kr/sitemap.xml
